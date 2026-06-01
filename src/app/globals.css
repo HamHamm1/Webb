@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Quicksand:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --f-head: "Baloo 2", cursive;
+  --f-sub: "Fredoka", sans-serif;
+  --f-body: "Nunito", sans-serif;
+  --f-deco: "Quicksand", sans-serif;
+  color-scheme: light;
+}
+
+@layer base {
+  body {
+    @apply font-body text-primary min-h-screen;
+    line-height: 1.55;
+    background: linear-gradient(160deg, #fff9f7, #fdecf2 40%, #fff6ee 70%, #fffdf8);
+    background-attachment: fixed;
+  }
+  h1, h2, h3 { @apply font-head; }
+}
+
+@layer components {
+  /* The big rounded "board" with ears + dashed inset, from the original. */
+  .shell {
+    @apply relative border-[3px] border-bborder shadow-soft;
+    border-radius: 42px;
+    padding: 30px;
+    background:
+      radial-gradient(440px 340px at 10% 6%, #ffeff5 0%, transparent 58%),
+      radial-gradient(400px 320px at 92% 18%, #fff6ec 0%, transparent 55%),
+      radial-gradient(520px 420px at 84% 94%, #fbeef4 0%, transparent 55%),
+      radial-gradient(360px 300px at 6% 78%, #fff4ee 0%, transparent 55%),
+      linear-gradient(180deg, #fffdfb, #fff9f5);
+  }
+  .shell::before {
+    content: "";
+    @apply absolute border-2 border-dashed border-dot pointer-events-none;
+    inset: 9px;
+    border-radius: 33px;
+  }
+  .ear {
+    @apply absolute w-16 h-16 border-[3px] border-bborder;
+    top: -26px;
+    background: #fbe8dc;
+    border-radius: 50% 50% 48% 48%;
+  }
+  .ear::after { content: ""; @apply absolute bg-highlight rounded-full; inset: 13px; }
+  .ear-l { left: 60px; transform: rotate(-12deg); }
+  .ear-r { right: 60px; transform: rotate(12deg); }
+
+  .panel {
+    @apply bg-panel border-2 border-line shadow-card relative;
+    border-radius: 24px;
+    padding: 18px;
+  }
+  .panel-pink { @apply bg-panel-pink; }
+  .panel-cream { @apply bg-panel-cream; }
+
+  .ptitle {
+    @apply font-head font-bold text-primary flex items-center gap-2 mb-3;
+    font-size: 1.08rem;
+  }
+
+  .muted { @apply text-secondary; font-size: 0.9rem; line-height: 1.65; }
+
+  /* buttons */
+  .pill {
+    @apply font-sub font-semibold cursor-pointer text-white transition;
+    border-radius: 16px; padding: 8px 14px; font-size: 0.88rem;
+    box-shadow: 0 6px 14px -8px rgba(0, 0, 0, 0.25);
+  }
+  .pill:hover { transform: translateY(-2px) scale(1.02); }
+  .pill-accent { @apply bg-accent; }
+  .pill-warn { background: #f3c98b; color: #8a6a2e; }
+  .pill-soft { @apply bg-white text-secondary border-2 border-line; }
+
+  .btn-big {
+    @apply inline-flex items-center gap-2 font-sub font-bold cursor-pointer transition border-0;
+    border-radius: 18px; padding: 12px 22px; font-size: 0.98rem;
+    box-shadow: 0 8px 18px -10px rgba(0, 0, 0, 0.3);
+  }
+  .btn-big:hover { transform: translateY(-3px) scale(1.02); }
+  .btn-primary { background: linear-gradient(120deg, #e7a8bc, #f0adc0); @apply text-white; }
+  .btn-ghost { @apply bg-white text-secondary border-2 border-line; }
+
+  .btn-sm {
+    @apply font-sub font-semibold cursor-pointer border-0 text-white transition;
+    border-radius: 12px; padding: 8px 14px; font-size: 0.84rem;
+  }
+  .btn-sm:hover { transform: translateY(-2px); }
+  .b-add { @apply bg-success; }
+  .b-del { @apply bg-danger; }
+  .b-save { @apply bg-accent; }
+  .b-neutral { @apply bg-white text-secondary border-2 border-line; }
+
+  /* status pills */
+  .status-pill {
+    @apply inline-flex items-center gap-2 font-sub font-bold;
+    font-size: 0.82rem; padding: 7px 13px; border-radius: 16px;
+  }
+  .status-pill .dot { @apply w-2 h-2 rounded-full animate-blink; }
+  .st-open { background: #eaf6ec; color: #5e8c66; }
+  .st-open .dot { @apply bg-success; }
+  .st-close { background: #fbeaea; color: #a86a6a; }
+  .st-close .dot { @apply bg-danger; }
+
+  /* cards */
+  .pcard {
+    @apply bg-white border-2 border-line text-center relative transition;
+    border-radius: 18px; padding: 16px 14px;
+  }
+  .pcard:hover { transform: translateY(-4px); @apply shadow-card; }
+  .pcard.feat { @apply border-accent; background: linear-gradient(160deg, #fff1f6, #fff9f2); }
+  .pcard .pprice { @apply font-head font-extrabold text-accent-d; font-size: 1.65rem; margin: 6px 0; }
+
+  /* form fields */
+  .fld { @apply mb-3.5; }
+  .fld label { @apply block font-sub font-semibold text-secondary mb-1.5; font-size: 0.88rem; }
+  .fld input, .fld textarea, .fld select {
+    @apply w-full border-2 border-line text-primary;
+    border-radius: 12px; padding: 10px 13px; font-size: 0.94rem;
+  }
+  .fld input:focus, .fld textarea:focus, .fld select:focus { @apply outline-none border-accent; }
+
+  .inforow {
+    @apply flex justify-between gap-2 border-b border-dashed border-dot;
+    padding: 8px 0; font-size: 0.9rem;
+  }
+  .inforow:last-child { border-bottom: none; }
+  .inforow .k { @apply font-sub font-semibold text-secondary; }
+  .inforow .v { @apply font-sub font-semibold text-primary text-right; }
+
+  .code-tag {
+    font-family: monospace; background: #ffeaf1; color: #c2647f;
+    padding: 3px 8px; border-radius: 7px; font-weight: 700; letter-spacing: 1px;
+  }
+
+  .badge { @apply font-sub font-bold; font-size: 0.66rem; padding: 2px 9px; border-radius: 9px; }
+  .badge-news { background: #eaf6ec; color: #5e8c66; }
+  .badge-promo { background: #ffeaf1; color: #c2647f; }
+  .badge-urgent { background: #fbeaea; color: #a86a6a; }
+}

@@ -1,0 +1,703 @@
+{
+  "about": {
+    "bio": "ร้านเล็กๆ ขายเอาสังคม ตามประสาคนขี้เหงา ขอบคุณที่เอ็นดูและซัพพอร์ตกันเสมอมาน้าาา",
+    "contact": "ทักมาในดิสได้เลยน้า (⌒‐⌒)",
+    "discord": "muumook",
+    "name": "Hammie World",
+    "socials": [
+      {
+        "label": "ลิงก์",
+        "url": "https://discord.gg/bdhHahn8NF"
+      }
+    ]
+  },
+  "announcements": [
+    {
+      "body": "สวัสดีค่าทุกคนน แฮมแฮมเปิดร้านขาย API Gemini 3.1 Pro แล้วน้าาา พร้อมดูแลตลอดเลยคั้บ",
+      "date": "2026-05-30",
+      "pinned": true,
+      "title": "ยินดีต้อนรับสู่ Hammie World",
+      "type": "news"
+    }
+  ],
+  "assets": {
+    "background": "https://i.postimg.cc/MTKZ17W4/file-000000009d80720b818b68e5d564be4d.png",
+    "banner": "https://i.postimg.cc/xdgnjXvY/file-00000000584c71fab0497f0de7069467.png",
+    "cover": "https://i.postimg.cc/9F5CM5Ss/file-000000006d7471f8bf4a536a3608bb4b.png",
+    "hero": "https://i.postimg.cc/pV9LrBLg/Untitled153-20260507234246.png",
+    "logo": "https://i.postimg.cc/JhgS2jCD/TA-2026-04-21-15-24-19-(artist-ma-1579392565-0.png",
+    "nav_about": "https://i.postimg.cc/ht89wnWq/file-00000000c19c7230933eed46543ff9e1.png",
+    "nav_contact": "https://i.postimg.cc/85xJcXQb/file-00000000a4a87230bbd5c1f693b6a651.png",
+    "nav_customer": "https://i.postimg.cc/RZ1c8m5x/file-000000003adc7230a010c7a14e884c6f.png",
+    "nav_home": "https://i.postimg.cc/L635F8XY/file-00000000b2e07230b41c7ec0f917b005.png",
+    "nav_prices": "https://i.postimg.cc/ZRXBnstF/file-0000000027707230a31a99be61a9042a.png",
+    "nav_promotion": "https://i.postimg.cc/htQY7fdS/file-0000000005a47230a1f9a48411b2b0e4.png",
+    "nav_rank": "https://i.postimg.cc/3Rz4Nf5B/file-00000000bef87230b835f214818a6e3c.png",
+    "profile": "https://i.postimg.cc/q7MkTsFm/4822.jpg"
+  },
+  "autoUpdate": true,
+  "customers": [
+    {
+      "code": "อันดา",
+      "name": "อันดา",
+      "notes": "ขอบคุณนะคะ ＼(^-^)／",
+      "orders": "",
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": ""
+    },
+    {
+      "code": "แคท",
+      "name": "1 แคท",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*^^*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "มุมินน",
+      "name": "2 มุมินน",
+      "notes": "ขอบคุณมากๆเลยนะคะ (^-^)/",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "เนมมี่",
+      "name": "3 เนมมี่",
+      "notes": "ขอบคุณมากๆเลยนะคะ (⌒0⌒)／~~",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "MUAY API.คุณมุ",
+      "name": "4 คุณหมวย",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ≧∀≦)ノ",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "KJ990",
+      "name": "5 kj990",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ＾ω＾ )",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "KAZER",
+      "name": "6 kazer",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ☆∀☆)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ปลาทอง",
+      "name": "7 ปลาทอง",
+      "notes": "ขอบคุณมากๆเลยนะคะ d=(^o^)=b",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "แมวชมพู",
+      "name": "8 แมวชมพู",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( 〃▽〃)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ล่าแบ้",
+      "name": "9 ล่าแบ้",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ﾉ^ω^)ﾉ",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ซัน ซัน",
+      "name": "10 ซัน ซัน",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( 〃▽〃)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "เฉียน",
+      "name": "11 เฉียน",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*/∀＼*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ทานุกิ",
+      "name": "12 ทานุกิ",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*ゝω･*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ลำไยไหลำ",
+      "name": "13 ลำไยไหลำ",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( =＾ω＾)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "มาจากุ้ก",
+      "name": "14 มาจากุ้ก",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*^-^*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ไก่ต้ม",
+      "name": "15 ไก่ต้ม",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*´∀`)♪",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ร้ากไพน่อน",
+      "name": "16 ร้ากไพน่อน",
+      "notes": "ขอบคุณมากๆเลยนะคะ (^-^)/",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "บูบูกาก่า",
+      "name": "17 บูบูกาก่า",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*^▽^)/★*☆♪",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "รักแมวส้ม",
+      "name": "18 รักแมวส้ม",
+      "notes": "ขอบคุณมากๆเลยนะคะ(⌒‐⌒)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "ฟิว",
+      "name": "19 ฟิว",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( 〃▽〃)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "NONGNOK",
+      "name": "20 nongnok",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*^^*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "มูมู",
+      "name": "21 มูมู",
+      "notes": "ขอบคุณมากๆเลยนะคะ (⌒‐⌒)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "KIRA",
+      "name": "22 Kira",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ≧∀≦)ノ",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "JONGYUE",
+      "name": "23 JongYue",
+      "notes": "ขอบคุณมากๆเลยนะคะ ( ＾ω＾ )",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "คุณเกรป",
+      "name": "24 คุณเกรป",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*≧з≦)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวจิ๋ว",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "คุณแชมเปญ",
+      "name": "25 คุณแชมเปญ",
+      "notes": "ขอบคุณมากๆเลยนะคะ (*^3(*^o^*)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "code": "BOMNAJA0",
+      "name": "26 bomnaja0",
+      "notes": "ขอบคุณมากๆเลยนะคะ (○´∀｀人´∀｀○)",
+      "orders": 0,
+      "points": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "totalBaht": 0
+    },
+    {
+      "name": "27 คุณผีเสื้อ",
+      "code": "ผีเสื้อสุดเบียว",
+      "points": 0,
+      "orders": 0,
+      "totalBaht": 0,
+      "rank": "แฮมเต๋อตัวเบิ้ม",
+      "special": "",
+      "notes": ""
+    }
+  ],
+  "hours": {
+    "close": "05:00",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "open": "06:00"
+  },
+  "orders": [
+    {
+      "id": "o1780307902883",
+      "code": "ลำไยไหลำ",
+      "name": "13 ลำไยไหลำ",
+      "messages": "500",
+      "amount": "200",
+      "slip": "",
+      "note": "",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "o1780300040139",
+      "code": "BOMNAJA0",
+      "name": "26 bomnaja0",
+      "messages": "200",
+      "amount": "96",
+      "slip": "",
+      "note": "",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "o1780292931264",
+      "code": "ผีเสื้อสุดเบียว",
+      "name": "คุณผีเสื้อ",
+      "messages": "1200",
+      "amount": "480",
+      "slip": "",
+      "note": "",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "o1780287865108",
+      "code": "มาจากุ้ก",
+      "name": "14 มาจากุ้ก",
+      "messages": "200",
+      "amount": "80",
+      "slip": "",
+      "note": "",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "o1780241626061",
+      "code": "เฉียน",
+      "name": "11 เฉียน",
+      "messages": "100",
+      "amount": "40",
+      "slip": "",
+      "note": "",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "o1780240555589",
+      "code": "ปลาทอง",
+      "name": "7 ปลาทอง",
+      "messages": "100",
+      "amount": "40",
+      "slip": "",
+      "note": "",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "o1780240458358",
+      "code": "คุณแชมเปญ",
+      "name": "25 คุณแชมเปญ",
+      "messages": "1100",
+      "amount": "400",
+      "slip": "",
+      "note": "",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "o1780217740403",
+      "code": "MUAY API.คุณมุ",
+      "name": "4 คุณหมวย",
+      "messages": "100",
+      "amount": "40",
+      "slip": "",
+      "note": "",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "o1780146224111",
+      "code": "เฉียน",
+      "name": "11 เฉียน",
+      "messages": "100",
+      "amount": "40",
+      "slip": "",
+      "note": "",
+      "date": "2026-05-30"
+    },
+    {
+      "amount": "40",
+      "code": "ปลาทอง",
+      "date": "2026-05-30",
+      "id": "o1780079511856",
+      "messages": "100",
+      "name": "7 ปลาทอง",
+      "note": "",
+      "slip": ""
+    },
+    {
+      "amount": "20",
+      "code": "NONGNOK",
+      "date": "2026-05-29",
+      "id": "o1780075263678",
+      "messages": "50",
+      "name": "20 nongnok",
+      "note": "",
+      "slip": ""
+    },
+    {
+      "amount": "40",
+      "code": "NONGNOK",
+      "date": "2026-05-29",
+      "id": "o1780075243055",
+      "messages": "100",
+      "name": "20 nongnok",
+      "note": "",
+      "slip": ""
+    }
+  ],
+  "pricing": {
+    "activeTab": "t1780077089760",
+    "note": "ขณะนี้ทางร้านไม่มีโปรโมชั่นส่วนลดเพิ่มเติมแล้วนะคั้บผมมม ต้องขออภัยในความไม่สะดวกด้วยน้าาา",
+    "tabs": [
+      {
+        "id": "std",
+        "items": [
+          {
+            "featured": false,
+            "label": "100 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "48"
+          },
+          {
+            "featured": false,
+            "label": "200 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "96"
+          },
+          {
+            "featured": false,
+            "label": "300 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "144"
+          },
+          {
+            "featured": false,
+            "label": "400 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "192"
+          },
+          {
+            "featured": false,
+            "label": "500 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "240"
+          },
+          {
+            "featured": false,
+            "label": "600 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "288"
+          },
+          {
+            "featured": false,
+            "label": "700 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "336"
+          },
+          {
+            "featured": false,
+            "label": "800 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "384"
+          },
+          {
+            "featured": false,
+            "label": "900 ข้อความ",
+            "note": "แจ้งว่าเป็นยศติดปีก + 5 ข้อความอัตโนมัติ",
+            "price": "432"
+          },
+          {
+            "featured": true,
+            "label": "1,000 ข้อความ",
+            "note": "แถมฟรี +200 ข้อความ (ติดปีก + 10 ข้อความ)",
+            "price": "480"
+          }
+        ],
+        "name": "ราคาปกติ"
+      },
+      {
+        "id": "r2",
+        "items": [
+          {
+            "label": "100 ข้อความ",
+            "price": "39",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "200 ข้อความ",
+            "price": "78",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "300 ข้อความ",
+            "price": "117",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "400 ข้อความ",
+            "price": "156",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "500 ข้อความ",
+            "price": "195",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "600 ข้อความ",
+            "price": "234",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "700 ข้อความ",
+            "price": "273",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "800 ข้อความ",
+            "price": "312",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "900 ข้อความ",
+            "price": "351",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "1,000 ข้อความ",
+            "price": "390",
+            "note": "",
+            "featured": true
+          }
+        ],
+        "name": "ราคาแฮมเต๋อตัวเบิ้ม"
+      },
+      {
+        "id": "t1780077089760",
+        "name": "ราคาคนเก่งของแฮม",
+        "items": [
+          {
+            "label": "100 ข้อความ",
+            "price": "45",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "200 ข้อความ",
+            "price": "90",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "300 ข้อความ",
+            "price": "135",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "400 ข้อความ",
+            "price": "180",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "500 ข้อความ",
+            "price": "225",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "600 ข้อความ",
+            "price": "270",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "700 ข้อความ",
+            "price": "315",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "800 ข้อความ",
+            "price": "360",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "900 ข้อความ",
+            "price": "405",
+            "note": "",
+            "featured": false
+          },
+          {
+            "label": "1,000 ข้อความ",
+            "price": "450",
+            "note": "แถม 50 ข้อความ",
+            "featured": true
+          }
+        ]
+      }
+    ]
+  },
+  "ranks": [
+    {
+      "defIcon": "flower",
+      "desc": "ครอบครัวแฮมอ้วน",
+      "iconUrl": "https://i.postimg.cc/FHh2w9d7/file-00000000e4087230b33dca91188ea489.png",
+      "name": "แฮมเต๋อตัวจิ๋ว"
+    },
+    {
+      "defIcon": "heart",
+      "desc": "ยอดสั่งซื้อ 480 บาทขึ้นไป",
+      "iconUrl": "https://i.postimg.cc/CxwW9FB5/Screenshot-20260529-235619-Chat-GPT.jpg",
+      "name": "แฮมเต๋อตัวเบิ้ม"
+    },
+    {
+      "defIcon": "star",
+      "desc": "คนบูสต์เซิร์ฟเวอร์ดิสของแฮม (ทุกคำสั่งซื้อ + 5 ข้อความ)",
+      "iconUrl": "https://i.postimg.cc/qvp9Wkhh/Screenshot-20260529-235627-Chat-GPT.jpg",
+      "name": "ติดปีกแก้มตุ่ย"
+    },
+    {
+      "defIcon": "crown",
+      "desc": "มีบอทในดิส 2 บอทขึ้นไป",
+      "iconUrl": "https://i.postimg.cc/cLdVPsgH/Screenshot-20260529-235634-Chat-GPT.jpg",
+      "name": "คนเก่งของแฮม"
+    }
+  ],
+  "status": {
+    "announce": "เปิดรับออเดอร์ปกติค่า",
+    "model": "Gemini 3.1 Pro",
+    "queue": "ไม่มีคิว",
+    "speed": "เร็วลื่นปรื๊ด",
+    "stock": "พร้อมขายจ้า"
+  },
+  "store": {
+    "description": "ร้านขาย API Gemini 3.1 Pro แบบ อัปเดตไว พร้อมดูแลลูกค้าตลอดเลยค่า",
+    "discordLink": "https://discord.gg/bdhHahn8NF",
+    "discordUser": "muumook",
+    "footer": "Hammie World — ขายเอาสังคม ตามประสาคนขี้เหงา ขอบคุณที่มาอุดหนุนน้า",
+    "name": "Hammie World",
+    "quotaCheckUrl": "https://key.gemai.cc/",
+    "subtitle": "Gemini 3.1 Pro API Store"
+  },
+  "version": 1780307988451
+}
