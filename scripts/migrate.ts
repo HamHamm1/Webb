@@ -20,10 +20,13 @@ config({ path: ".env.local" });
 config({ path: ".env" });
 
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const KEY =
+  process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
 const DOMAIN = process.env.AUTH_EMAIL_DOMAIN || "hammie.local";
 if (!URL || !KEY) {
-  console.error("Missing NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY");
+  console.error(
+    "Missing NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SECRET_KEY (or SUPABASE_SERVICE_ROLE_KEY)"
+  );
   process.exit(1);
 }
 const db: SupabaseClient = createClient(URL, KEY, {

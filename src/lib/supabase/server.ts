@@ -1,15 +1,16 @@
 import { cookies } from "next/headers";
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
+import { SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY } from "./env";
 
 /**
- * Supabase client bound to the request cookies (anon key + RLS).
+ * Supabase client bound to the request cookies (publishable key + RLS).
  * Use in Server Components / Route Handlers for the *current user*.
  */
 export function createSupabaseServerClient() {
   const cookieStore = cookies();
   return createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    SUPABASE_URL,
+    SUPABASE_PUBLISHABLE_KEY,
     {
       cookies: {
         get(name: string) {
