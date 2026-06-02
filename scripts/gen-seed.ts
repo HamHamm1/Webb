@@ -276,6 +276,18 @@ for (const a of raw.announcements ?? []) {
 out.push("");
 
 mkdirSync(resolve("scripts/output"), { recursive: true });
-writeFileSync(resolve("scripts/output/seed.sql"), out.join("\n"), "utf8");
+
+// ── safety net: assert every UUID literal is a valid 8-4-4-4-12 ───
+const sql = out.join("\n");
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+const candidates = [...sql.matchAll(/'([0-9a-fA-F]{4,}-[0-9a-fA-F-]{8,})'/g)].map((m) => m[1]);
+const bad = [...new Set(candidates)].filter((u) => !UUID_RE.test(u));
+if (bad.length) {
+  console.error("✗ malformed UUID literal(s) detected, aborting:", bad);
+  process.exit(1);
+}
+
+writeFileSync(resolve("scripts/output/seed.sql"), sql, "utf8");
 writeFileSync(resolve("scripts/output/credentials.csv"), creds.join("\n"), "utf8");
 console.log(`✅ seed.sql (${out.length} lines) + credentials.csv (${creds.length - 1} accounts) → scripts/output/`);
+console.log(`   UUID check: ${candidates.length} literals, all valid 8-4-4-4-12 ✓`);
